@@ -109,7 +109,8 @@
 
     <!-- Report Issue and DB Switcher -->
     <div class="window-no-drag flex flex-col gap-2 py-2 px-4">
-      <button
+    <!-- 
+      <button 
         class="
           flex
           text-sm text-gray-600
@@ -126,7 +127,7 @@
           {{ t`Help` }}
         </p>
       </button>
-
+-->
       <button
         class="
           flex
@@ -159,7 +160,7 @@
         <feather-icon name="database" class="h-4 w-4 flex-shrink-0" />
         <p>{{ t`Change DB` }}</p>
       </button>
-
+<!-- 
       <button
         class="
           flex
@@ -177,7 +178,7 @@
           {{ t`Report Issue` }}
         </p>
       </button>
-
+-->
       <p
         v-if="showDevMode"
         class="text-xs text-gray-500 select-none cursor-pointer"

@@ -1,9 +1,9 @@
 {
-  "name": "frappe-books",
+  "name": "JT-books",
   "version": "0.24.0",
   "description": "Simple book-keeping app for everyone",
   "author": {
-    "name": "Frappe Technologies Pvt. Ltd.",
+    "name": "JerinTechnologies Pvt. Ltd.",
     "email": "hello@frappe.io"
   },
   "scripts": {
